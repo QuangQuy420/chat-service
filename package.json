@@ -1,0 +1,15 @@
+{
+  "name": "chat-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":  "node index.js"
+  },
+  "author": "Quy Phan Quang",
+  "license": "ISC",
+  "description": "The application use web socket to handle chat message real time",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
