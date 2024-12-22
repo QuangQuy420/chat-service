@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node index.js",
+    "dev": "nodemon src/index.js",
     "lint": "eslint .",
     "format": "prettier --write ."
   },
@@ -13,7 +13,10 @@
   "license": "ISC",
   "description": "The application use web socket to handle chat message real time",
   "dependencies": {
-    "express": "^4.21.2"
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "socket.io": "^4.8.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
